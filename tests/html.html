@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Example HTML</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <h1>😆 It works!</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+        <tr tal:repeat="item ini">
+            <td tal:content="item/name">Name</td>
+            <td tal:content="item/value">Value</td>
+        </tr>
+    </table>
+</body>
+
+</html>
