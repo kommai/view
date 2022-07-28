@@ -1,0 +1,37 @@
+{
+    "name": "kommai/view",
+    "description": "The kommai views",
+    "type": "library",
+    "homepage": "https://github.com/kommai/view",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "The Kommai Toolkit",
+            "email": "dev@kommai.app"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "phptal/phptal": ">=1.6"
+    },
+    "require-dev": {
+        "kommai/http": "dev-main",
+        "kommai/testkit": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kommai\\View\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kommai/http"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kommai/testkit"
+        }
+    ]
+}

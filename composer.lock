@@ -1,0 +1,171 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f132eb9965521ab00037714b47eafaaf",
+    "packages": [
+        {
+            "name": "phptal/phptal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phptal/PHPTAL.git",
+                "reference": "7329e0160cba01f2d7cb7d0ef3c25736d5b08f5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phptal/PHPTAL/zipball/7329e0160cba01f2d7cb7d0ef3c25736d5b08f5c",
+                "reference": "7329e0160cba01f2d7cb7d0ef3c25736d5b08f5c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5.4"
+            },
+            "default-branch": true,
+            "bin": [
+                "tools/phptal_lint.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPTAL": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1+"
+            ],
+            "authors": [
+                {
+                    "name": "Laurent Bédubourg",
+                    "email": "lbedubourg@motion-twin.com",
+                    "homepage": "http://labe.me"
+                },
+                {
+                    "name": "Kornel Lesiński",
+                    "email": "kornel@geekhood.net",
+                    "homepage": "http://pornel.net/"
+                }
+            ],
+            "description": "PHPTAL is a templating engine for PHP5 that implements Zope Page Templates syntax",
+            "homepage": "http://phptal.org/",
+            "keywords": [
+                "phptal",
+                "template engine",
+                "zope"
+            ],
+            "support": {
+                "issues": "https://github.com/phptal/PHPTAL/issues",
+                "source": "https://github.com/phptal/PHPTAL/tree/master"
+            },
+            "time": "2021-03-27T17:20:34+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "kommai/http",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kommai/http.git",
+                "reference": "c8c572a7e649d01da41cf2be618c3af8aa43353a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kommai/http/zipball/c8c572a7e649d01da41cf2be618c3af8aa43353a",
+                "reference": "c8c572a7e649d01da41cf2be618c3af8aa43353a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "phptal/phptal": ">=1.6"
+            },
+            "require-dev": {
+                "kommai/testkit": "dev-main",
+                "kommai/validation": "dev-main"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kommai\\Http\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "The Kommai Toolkit",
+                    "email": "dev@kommai.app"
+                }
+            ],
+            "description": "The kommai HTTP stuff",
+            "homepage": "https://github.com/kommai/http",
+            "support": {
+                "source": "https://github.com/kommai/http/tree/main",
+                "issues": "https://github.com/kommai/http/issues"
+            },
+            "time": "2022-07-28T08:33:54+00:00"
+        },
+        {
+            "name": "kommai/testkit",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kommai/testkit.git",
+                "reference": "1a7fc5c20599ef4923585de4b20752d078ac18e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kommai/testkit/zipball/1a7fc5c20599ef4923585de4b20752d078ac18e6",
+                "reference": "1a7fc5c20599ef4923585de4b20752d078ac18e6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kommai\\TestKit\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "The Kommai Toolkit",
+                    "email": "dev@kommai.app"
+                }
+            ],
+            "description": "The kommai test kit",
+            "homepage": "https://github.com/kommai/testkit",
+            "support": {
+                "source": "https://github.com/kommai/testkit/tree/main",
+                "issues": "https://github.com/kommai/testkit/issues"
+            },
+            "time": "2022-03-30T00:17:45+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "kommai/http": 20,
+        "kommai/testkit": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
