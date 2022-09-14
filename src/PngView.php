@@ -6,11 +6,11 @@ namespace Kommai\View;
 
 use Kommai\Http\Response;
 
-class JpegView implements ViewInterface
+class PngView implements ViewInterface
 {
     use ViewTrait, ImageViewTrait;
 
-    public const MEDIA_TYPE = 'image/jpeg';
+    public const MEDIA_TYPE = 'image/png';
 
     public function toResponse(): Response
     {

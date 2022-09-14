@@ -10,7 +10,7 @@ class JsonView implements ViewInterface
 {
     use ViewTrait;
 
-    private const MEDIA_TYPE = 'application/json; charset=UTF-8';
+    public const MEDIA_TYPE = 'application/json; charset=UTF-8';
 
     public function toResponse(): Response
     {
